@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello goorm!</title>
+</head>
+<body>
+    <h1>
+        <a th:href="@{https://www.thymleaf.org}">공식 페이지이동</a>
+    </h1>
+    <div>
+        <a th:href="@{/ex02}">예제2 페이지이동</a>
+    </div>
+    <div>
+        <a th:href="@{/ex06(param1 = '파라미터 데이터1', param2 = '파라미터 데이터2')}">파라미터 전달</a>
+    </div>
+
+</body>
+</html>
