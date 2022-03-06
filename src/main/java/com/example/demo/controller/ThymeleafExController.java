@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class ThymeleafExController {
-    @GetMapping(value = "hello")
+    @GetMapping(value = "/")
     public void hello(Model model){
         model.addAttribute("message", "SnowDear");
     }

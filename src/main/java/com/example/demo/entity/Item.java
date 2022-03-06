@@ -7,7 +7,11 @@ import lombok.ToString;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Setter @Getter @ToString @Entity @Table(name = "item")
+@Setter
+@Getter
+@ToString
+@Entity
+@Table(name = "item")
 public class Item {
     @Id
     @Column(name="item_id")
